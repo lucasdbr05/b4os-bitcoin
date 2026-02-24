@@ -101,6 +101,11 @@ BASE_SCRIPTS = [
     # Scripts that are run by default.
     # Longest test should go first, to favor running tests in parallel
     # vv Tests less than 5m vv
+    'feature_hello_world.py',
+    'wallet_rpc_basics.py',
+    'feature_prune_debug_log.py',
+    'feature_miniwallet.py',
+    'p2p_ping_pong.py   ',
     'feature_fee_estimation.py',
     'feature_taproot.py',
     'feature_block.py',
